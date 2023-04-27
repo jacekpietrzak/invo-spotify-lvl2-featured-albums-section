@@ -1,0 +1,16 @@
+/// Root Styles file
+/// Here we define all the root variables we need for our project.
+/// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
+
+:root {
+  // colors
+  --color-primary-500: #65d46e;
+  --color-primary-700: #53c95b;
+  --color-primary-900: #37b93f;
+  --color-on-surface: #000;
+}
+
+// Media screen brakes
+$mobile-min: 375px;
+$mobile-max: 834px;
+$tablet-max: 1439.5px;

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INVO Academy Spotify Starter</title>
+  </head>
+
+  <body>
+    <div id="home-page">
+      <div class="featured-albums-section">
+        <div class="featured-albums-section__card">
+          <div class="featured-albums-section__cover-container">
+            <img
+              src="./assets/images/kendrick-lamar-damn.jpg"
+              alt="kendrick-lamar-damn"
+            />
+          </div>
+          <div class="featured-albums-section__info-container">
+            <div class="featured-albums-section__info">
+              <div class="featured-albums-section__info-artist-and-title">
+                Kendrick Lamar - <br />DAMN
+              </div>
+              <div class="featured-albums-section__info-description">
+                Fourth studio album by American rapper Kendrick Lamar.
+              </div>
+            </div>
+            <button type="button" class="button">
+              <div class="play-icon-container">
+                <img
+                  src="./assets/icons/play-button-arrowhead.svg"
+                  alt="play"
+                />
+              </div>
+              <div class="button__text">Start listening</div>
+            </button>
+          </div>
+        </div>
+        <div class="featured-albums-section__card">
+          <div class="featured-albums-section__cover-container">
+            <img
+              src="./assets/images/faith-pop-smoke.jpg"
+              alt="kendrick-lamar-damn"
+            />
+          </div>
+          <div class="featured-albums-section__info-container">
+            <div class="featured-albums-section__info">
+              <div class="featured-albums-section__info-artist-and-title">
+                Faith - Pop Smoke
+              </div>
+              <div class="featured-albums-section__info-description">
+                Faith is the second and final studio album by American rapper
+                Pop Smoke. It was released posthumously on July 16, 2021.
+              </div>
+            </div>
+            <button type="button" class="button">
+              <div class="play-icon-container">
+                <img
+                  src="./assets/icons/play-button-arrowhead.svg"
+                  alt="play"
+                />
+              </div>
+              <div class="button__text">Start listening</div>
+            </button>
+          </div>
+        </div>
+        <div class="featured-albums-section__card">
+          <div class="featured-albums-section__cover-container">
+            <img
+              src="./assets/images/travis-scott-astroworld.jpg"
+              alt="kendrick-lamar-damn"
+            />
+          </div>
+          <div class="featured-albums-section__info-container">
+            <div class="featured-albums-section__info">
+              <div class="featured-albums-section__info-artist-and-title">
+                Travis Scott - Astroworld
+              </div>
+              <div class="featured-albums-section__info-description">
+                Third studio album by American rapper Travis Scott. It was
+                released on August 3, 2018 through Cactus Jack Records Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit. Sed hic ad
+                similique ut beatae, laboriosam reiciendis odio ab natus et,
+                pariatur officia soluta quae est repellat asperiores animi
+                obcaecati a?
+              </div>
+            </div>
+            <button type="button" class="button">
+              <div class="play-icon-container">
+                <img
+                  src="./assets/icons/play-button-arrowhead.svg"
+                  alt="play"
+                />
+              </div>
+              <div class="button__text">Start listening</div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="promo-banner-component">
+        <div class="promo-banner-component__card">
+          <div class="promo-banner-component__card-background">
+            <div class="promo-banner-component__card-image-container">
+              <picture>
+                <source
+                  media="(max-width: 834px)"
+                  srcset="./assets/images/spotify-premium-mobile.png"
+                />
+                <source
+                  media="(max-width: 1439px)"
+                  srcset="./assets/images/spotify-premium-tablet.png"
+                />
+                <img
+                  src="./assets/images/spotify-premium-desktop.png"
+                  alt="spotify-premium"
+                />
+              </picture>
+            </div>
+            <div
+              class="promo-banner-component__card-image-container-overlay"
+            ></div>
+            <div class="promo-banner-component__card-border"></div>
+          </div>
+          <div class="promo-banner-component__info">
+            <div class="promo-banner-component__info-text">
+              Discover the latest hits with Spotify Premium
+            </div>
+            <button type="button" class="button button--light">
+              <div class="play-icon-container">
+                <img
+                  src="./assets/icons/play-button-arrowhead.svg"
+                  alt="play"
+                />
+              </div>
+              <div class="button__text">Start listening</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/global-scripts/main.js"></script>
+    <script
+      type="module"
+      src="/src/pages/home-page/scripts/home-page.js"
+    ></script>
+  </body>
+</html>
